@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 input_values = [x for x in range(1,6)]
 squares = [x**2 for x in input_values]
 
+plt.style.use('seaborn')
 fig, ax = plt.subplots()
 ax.plot(input_values, squares, linewidth=3)
 
